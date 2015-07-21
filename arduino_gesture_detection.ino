@@ -22,7 +22,7 @@ void loop() {
     //    if (dir) Bean.setScratchNumber(1, dir);
     if ( dir ) {
       uint8_t buffer[1];
-      buffer[0] = dir
+      buffer[0] = dir;
       Bean.setScratchData(1, buffer, 1);
     }
   } else {
